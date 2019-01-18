@@ -22,8 +22,8 @@ const styles = {
         alignItems: 'center',
         height: 60, 
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2
+        shadowOffset: { width: 0, height: 20 },
+        shadowOpacity: 0.6
     },
     textStyle: {
         fontSize: 20
