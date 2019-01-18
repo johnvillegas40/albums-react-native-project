@@ -24,8 +24,8 @@ const styles = {
         shadowColor: 'black',
         shadowOffset: { width: 0, height: 20 },
         shadowOpacity: 0.6,
-        elevation: 3,
-        backgroundColor : "#0000"
+        elevation: 16,
+        backgroundColor: "#0000"
     },
     textStyle: {
         fontSize: 20
