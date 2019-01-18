@@ -1,16 +1,24 @@
 // Import Librarys for making a component
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, View} from 'react-native';
 
 // Make a component
 const Header = () => {
-    const {textStyle} = styles;
+    const {textStyle, viewStyle} = styles;
 
 
-    return <Text style={textStyle}>Albums!</Text>
+    return (
+        <View styles={viewStyle}>
+            <Text style={textStyle}>Albums!</Text>
+        </View>
+        
+    )
 }
 
 const styles = {
+    viewStyle: {
+        backgroundColor: '#F8F8F8'
+    },
     textStyle: {
         fontSize: 20
     }
