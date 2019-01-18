@@ -8,7 +8,7 @@ const Header = () => {
 
 
     return (
-        <View styles={viewStyle}>
+        <View style={viewStyle}>
             <Text style={textStyle}>Albums!</Text>
         </View>
         
