@@ -21,7 +21,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         height: 60, 
-        shadowColor: '#000',
+        shadowColor: 'black',
         shadowOffset: { width: 0, height: 20 },
         shadowOpacity: 0.6,
         elevation: 3,
