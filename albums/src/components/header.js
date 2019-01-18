@@ -23,7 +23,8 @@ const styles = {
         height: 60, 
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 20 },
-        shadowOpacity: 0.6
+        shadowOpacity: 0.6,
+        backgroundColor : "#0000"
     },
     textStyle: {
         fontSize: 20
