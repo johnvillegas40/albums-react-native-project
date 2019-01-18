@@ -20,8 +20,7 @@ const styles = {
         backgroundColor: '#F8F8F8',
         justifyContent: 'center',
         alignItems: 'center',
-        height: 60,
-        paddingTop: 5
+        height: 60
     },
     textStyle: {
         fontSize: 20
