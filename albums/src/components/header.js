@@ -3,13 +3,13 @@ import React from 'react';
 import {Text, View} from 'react-native';
 
 // Make a component
-const Header = () => {
+const Header = (props) => {
     const {textStyle, viewStyle} = styles;
 
 
     return (
         <View style={viewStyle}>
-            <Text style={textStyle}>Albums!</Text>
+            <Text style={textStyle}>{props.headerText}</Text>
         </View>
         
     )
@@ -22,9 +22,10 @@ const styles = {
         alignItems: 'center',
         height: 60, 
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 20 },
+        shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.6,
         elevation: 9,
+        position:'relative'
     },
     textStyle: {
         fontSize: 20
