@@ -21,11 +21,10 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         height: 60, 
-        shadowColor: 'black',
+        shadowColor: '#000',
         shadowOffset: { width: 0, height: 20 },
         shadowOpacity: 0.6,
-        elevation: 16,
-        backgroundColor: "#0000"
+        elevation: 9,
     },
     textStyle: {
         fontSize: 20
